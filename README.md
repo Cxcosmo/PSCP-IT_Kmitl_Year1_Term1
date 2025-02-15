@@ -10,7 +10,7 @@
 ---
 
 ### ❓PSCP คืออะไร❓
-#### PSCP ย่อมาจาก Problem Solving And Computer Programming ในวิชานี้จะเรียนโดยใช้ภาษา Python มาช่วยในการแก้ปัญหาและพัฒนา Algorithm เราจะได้เรียนตั้งแต่ Basic Python การใช้ if else, Loop ต่างๆ, List และจะมุ่งเน้นในการทำโจทย์ปัญหาจนไปถึงการนำความรู้ที่ได้ไปทำ Project ในการแก้ปัญหาในชีวิตจริง
+#### PSCP ย่อมาจาก Problem Solving And Computer Programming ในวิชานี้จะเรียนโดยใช้ภาษา Python มาช่วยในการแก้ปัญหาและพัฒนา Algorithm เราจะได้เรียนตั้งแต่ Basic Python การใช้ Condition, Loop, List และจะมุ่งเน้นในการทำโจทย์ปัญหาจนไปถึงการนำความรู้ที่ได้ไปทำ Project ในการแก้ปัญหาในชีวิตจริง
 
 ---
 
