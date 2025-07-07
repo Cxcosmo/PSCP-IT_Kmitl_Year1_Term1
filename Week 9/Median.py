@@ -1,14 +1,12 @@
 """Median"""
 import math
-def main(n) :
+def main(num) :
     """Median"""
-    num = []
-    for _ in range(n) :
-        num.append(float(input()))
+    num = [float(i) for i in num]
     num.sort()
-    median = (n + 1) / 2
-    if not n % 2 :
-        print(f"{(num[(math.floor(median)) - 1] + num[(math.ceil(median)) - 1]) / 2:.3f}")
+    median = (len(num) + 1) / 2
+    if not len(num) % 2 :
+        print(f"{(num[(math.floor(median)) - 1] + num[(math.ceil(median)) - 1]) / 2:.2f}")
     else :
-        print(f"{num[int(median) - 1]:.3f}")
-main(int(input()))
+        print(f"{num[int(median) - 1]:.2f}")
+main(input().split(", "))

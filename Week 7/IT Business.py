@@ -40,7 +40,7 @@ def main(bank_money, my_money) :
             bank_money, my_money, error = window(bank_money, my_money, money)
             if not error :
                 err = 0
-            else :     
+            else :
                 err += error
         if err == 3 :
             break
