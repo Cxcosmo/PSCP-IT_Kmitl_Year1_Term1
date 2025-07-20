@@ -1,2 +1,2 @@
 """Seven"""
-print([7, 9, 3, 1][(int(input()) % 4) - 1])
+print([1, 7, 9, 3][int(input()) % 4])
