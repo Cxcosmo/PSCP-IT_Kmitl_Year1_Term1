@@ -8,7 +8,8 @@ def main(x, y, z):
         print("error")
         return
     num = 0
-    for i in range(x, y + z, z):
+    a = 1 if y > 0 else -1
+    for i in range(x, y + a, z):
         num += i
     print(num)
 main(int(input()), int(input()), int(input()))
